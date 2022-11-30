@@ -47,5 +47,23 @@ namespace SharpEcho.CodeChallenge.Api.Team.Tests
 
             Assert.IsNull(result);
         }
+
+        //[TestMethod]
+        //public void RecordMatch_ShouldReturnSuccess()
+        //{
+        //    var controller = new TeamsController(Repository);
+
+        //    var match = new Entities.Matches
+        //    {
+        //         Team1 = 1,
+        //         Team2 = 2,
+        //         Winner = 2,
+        //         Date = DateTime.Now
+        //    };
+
+        //    var result = controller.RecordMatch(match);
+        //    Assert.IsNotNull(result.Value);
+        //}
+
     }
 }

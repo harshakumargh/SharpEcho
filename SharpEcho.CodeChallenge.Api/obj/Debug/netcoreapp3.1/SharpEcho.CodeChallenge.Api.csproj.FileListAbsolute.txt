@@ -1,0 +1,13 @@
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/bin/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.deps.json
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/bin/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.dll
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/bin/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.pdb
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/bin/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Data.dll
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/bin/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Data.pdb
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.csproj.AssemblyReference.cache
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.AssemblyInfoInputs.cache
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.AssemblyInfo.cs
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.csproj.CoreCompileInputs.cache
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.csproj.CopyComplete
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.dll
+/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api/obj/Debug/netcoreapp3.1/SharpEcho.CodeChallenge.Api.pdb
