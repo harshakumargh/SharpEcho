@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{B314FE3F-F027-46A0-A82F-627CE9A8EFB2}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SharpEcho.CodeChallenge.Api.Team PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SharpEcho.CodeChallenge.Api.Team/Controllers/TeamsController.cs">
     <Files>
-      <File FileName="SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" Line="65" Column="46" />
-      <File FileName="SharpEcho.CodeChallenge.Api.Team/Controllers/TeamsController.cs" Line="24" Column="1" />
+      <File FileName="SharpEcho.CodeChallenge.Api.Team/Entities/Team.cs" Line="1" Column="1" />
+      <File FileName="SharpEcho.CodeChallenge.Api.Team/Entities/Matches.cs" Line="1" Column="1" />
+      <File FileName="SharpEcho.CodeChallenge.Api.Team/Controllers/TeamsController.cs" Line="45" Column="1" />
+      <File FileName="SharpEcho.CodeChallenge.Api.Team/Startup.cs" Line="72" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SharpEcho.CodeChallenge" expanded="True" selected="True">
+          <Node name="SharpEcho.CodeChallenge" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="SharpEcho.CodeChallenge.Api.Team" expanded="True">
               <Node name="Controllers" expanded="True" />
@@ -27,15 +32,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SharpEcho.CodeChallenge.Api.Team PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" relfile="SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" line="53" column="1" />
       <Breakpoint file="/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" relfile="SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" line="66" column="1" />
-      <Breakpoint file="/Users/harshakumargh/Projects/SharpEcho/SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" relfile="SharpEcho.CodeChallenge.Api.Team.Tests/UnitTest1.cs" line="25" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

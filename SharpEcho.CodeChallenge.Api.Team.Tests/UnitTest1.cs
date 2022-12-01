@@ -1,9 +1,9 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SharpEcho.CodeChallenge.Api.Team.Controllers;
 using SharpEcho.CodeChallenge.Data;
-using System;
+using SharpEcho.CodeChallenge.Api.Team.Controllers;
 
 namespace SharpEcho.CodeChallenge.Api.Team.Tests
 {
@@ -48,22 +48,70 @@ namespace SharpEcho.CodeChallenge.Api.Team.Tests
             Assert.IsNull(result);
         }
 
-        //[TestMethod]
-        //public void RecordMatch_ShouldReturnSuccess()
-        //{
-        //    var controller = new TeamsController(Repository);
+        [TestMethod]
+        public void AddMatch_ShouldReturnSuccess()
+        {
+            var controller = new TeamsController(Repository);
 
-        //    var match = new Entities.Matches
-        //    {
-        //         Team1 = 1,
-        //         Team2 = 2,
-        //         Winner = 2,
-        //         Date = DateTime.Now
-        //    };
+            var match = new Entities.MatchDetails
+            {
+                Team1 = 1,
+                Team2 = 2,
+                Winner = 2,
+                Date = DateTime.Now
+            };
 
-        //    var result = controller.RecordMatch(match);
-        //    Assert.IsNotNull(result.Value);
-        //}
+            var result = controller.AddMatch(match);
+            Assert.IsNotNull(result.Result); 
+        }
 
+        [TestMethod]
+        public void AddMatch_ShouldReturnFailure_InvalidInput()
+        {
+            var controller = new TeamsController(Repository);
+
+            var match = new Entities.MatchDetails
+            {
+                Team1 = 0,
+                Team2 = 2,
+                Winner = 2,
+                Date = DateTime.Now
+            };
+
+            var result = controller.AddMatch(match);
+            Assert.IsNull(result.Value);
+        }
+
+        [TestMethod]
+        public void GetMatchUps_ShouldReturnCorrectResponse()
+        {
+            var controller = new TeamsController(Repository);
+
+            var team = new Entities.MatchUps
+            {
+                Team1 = 1,
+                Team2 = 2
+            };
+
+            var result = controller.GetMatchUps(team.Team1, team.Team2).Value;
+
+            Assert.IsTrue(result.Team1 >= 0);
+        }
+
+        [TestMethod]
+        public void GetMatchUps_ShouldNotReturnEmptyResponse()
+        {
+            var controller = new TeamsController(Repository);
+
+            var team = new Entities.MatchUps
+            {
+                Team1 = 0,
+                Team2 = 2
+            };
+
+            var result = controller.GetMatchUps(team.Team1, team.Team2).Value;
+
+            Assert.IsNull(result);
+        }
     }
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace SharpEcho.CodeChallenge.Api.Team.Entities
 {
-	public class Matches
+	public class MatchDetails
 	{
-		public Matches()
+		public MatchDetails()
 		{
 		}
 
@@ -13,25 +13,25 @@ namespace SharpEcho.CodeChallenge.Api.Team.Entities
 		public long Team2 { get; set; }
 		public long Winner { get; set; }
 
-		public string Validate()
+		public bool IsInputValid()
 		{
             if (string.IsNullOrEmpty(Convert.ToString(Date)))
             {
-                return "Match Date is mandatory";
+				return false;
             }
-            if (Team1 > 0)
+            if (Team1 < 1)
 			{
-				return "Invalid team1 selected";
+				return false;
 			}
-            if (Team2 > 0)
+            if (Team2 < 1)
             {
-                return "Invalid team2 selected";
+				return false;
             }
-			if(Winner != Team1 || Winner != Team2)
+			if(Winner != Team1 && Winner != Team2)
 			{
-                return "Invalid winner selected";
+                return false;
             }
-			return string.Empty;
+			return true;
         }
 	}
 }
