@@ -57,6 +57,15 @@ namespace SharpEcho.CodeChallenge.Api.Team
 
             app.UseRouting();
 
+            app.UseCors(builder =>
+            {
+                builder
+                .WithOrigins(new string[] { "https://lemon-desert-0439f9e10.2.azurestaticapps.net", "http://localhost:4200" })
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials();
+            });
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
