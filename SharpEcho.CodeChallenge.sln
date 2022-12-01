@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpEcho.CodeChallenge.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpEcho.CodeChallenge.Api", "SharpEcho.CodeChallenge.Api\SharpEcho.CodeChallenge.Api.csproj", "{7F7A865D-5841-4D09-967B-59E19F0C9F43}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SharpEchoCodeChallenge", "SharpEchoCodeChallenge\SharpEchoCodeChallenge.sqlproj", "{16BED0CF-DCD0-44FE-8C05-E5BE3BE17D76}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8303A9D1-AED2-4F80-972B-7F28F9197BD7}"
 	ProjectSection(SolutionItems) = preProject
 		README.txt = README.txt
